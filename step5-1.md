@@ -23,7 +23,7 @@ var options = {
 
 2.2. 목차 안에 있는 글들의 URL을 추출하는 작업을 합니다.
 
-![1](/image/pic2_2.JPEG)<br>
+![pic2_2](https://user-images.githubusercontent.com/28593546/36489648-ede972b4-1769-11e8-9a88-766aa05f177f.JPG)<br>
 content_list 태그를 받아와서 li가 하나의 글을 의미합니다.
 info_area 이름의 클래스안에 있는 href에서 url을 받아옵니다.  
 ~~~
@@ -34,7 +34,7 @@ $('.content_list li').each(function() {
 
 2.3. 약 이름, 효능효과, 용법용량, 주의사항, 이미지URL을 클래스 이름과 ID로 구분해 가져옵니다.
 
-![2](/image/pic2_3.JPEG)<br>
+![pic2_3](https://user-images.githubusercontent.com/28593546/36489673-f8c92f62-1769-11e8-882e-1401a551b95c.JPG)
 
 예를 들어 효능효과의 경우, 효능효과 제목 다음의 태그가 실질적인 내용을 담고 있기 때문에, next()로 다음 태그를 접근해줍니다.
 ~~~
@@ -58,7 +58,7 @@ request(options2, function(error, response, html){
 
 2.4. 콘솔에 결과를 가져옵니다.
 
-![3](/image/pic2_4.JPEG)<br>
+![pic2_4](https://user-images.githubusercontent.com/28593546/36489699-05272c14-176a-11e8-9375-a923864efa34.JPG)<br>
 
 추후 약 정보 DB 테이블의 id자리를 남기기 위해 임의의 열 구분자 '!'를 추가합니다.
 
@@ -89,6 +89,6 @@ $type text*.txt > text_total.txt
 열을 구분하기 위해 임의로 설정한 '!'문자는 ',' 으로 치환해줍니다.
 
 ### 5. csv 파일로 변환
-![4](/image/pic5.JPEG)<br>
+![pic5](https://user-images.githubusercontent.com/28593546/36489732-0e67c068-176a-11e8-875f-f51e699945cc.JPG)<br>
 
 .csv 확장자로 저장하되 반드시 UTF-8 형식으로 저장해주어야 합니다.
