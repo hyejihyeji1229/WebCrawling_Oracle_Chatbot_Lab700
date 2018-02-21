@@ -100,6 +100,7 @@ $type text*.txt > text_total.txt
 <br>
 
 ### 5. csv 파일로 변환
+.csv 확장자로 저장하되 반드시 UTF-8 형식으로 저장해주어야 합니다.
+
 ![pic5](https://user-images.githubusercontent.com/28593546/36489732-0e67c068-176a-11e8-875f-f51e699945cc.JPG)<br>
 
-.csv 확장자로 저장하되 반드시 UTF-8 형식으로 저장해주어야 합니다.
