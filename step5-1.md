@@ -9,6 +9,7 @@ $npm install request
 $npm install cheerio
 ~~~
 <br>
+
 ### 2. 웹 크롤러 작성
 
 2.1. 크롤링해올 페이지 단위수와 함께, 인코딩과 uri 옵션을 설정해주세요.
@@ -73,7 +74,9 @@ id자리 공백, 약 이름, Tolerance, 효능효과, 용법, 주의사항, 글U
 ~~~
 console.log("!"+$drug_name+"!"+$synonyms+"!"+$drug_efficacy+"!"+$howtouse+"!"+$precaution+"!"+$url+"!"+$img_url);
 ~~~
+
 <br>
+
 ### 3. 데이터 저장
 10페이지씩 나눠 text1~text10까지 텍스트 파일로 저장합니다.
 그 다음 10개의 텍스트파일을 하나로 합칩니다.
@@ -86,12 +89,16 @@ $node medicine_cr.js > text10.txt
 
 $type text*.txt > text_total.txt
 ~~~
+
 <br>
+
 ### 4. 데이터 정제
 ','는 나중에 csv파일로 변환될때 열 구분자가 됩니다.
 따라서 ','문자는 '¸'으로 치환하고
 열을 구분하기 위해 임의로 설정한 '!'문자는 ',' 으로 치환해줍니다.
+
 <br>
+
 ### 5. csv 파일로 변환
 ![pic5](https://user-images.githubusercontent.com/28593546/36489732-0e67c068-176a-11e8-875f-f51e699945cc.JPG)<br>
 
