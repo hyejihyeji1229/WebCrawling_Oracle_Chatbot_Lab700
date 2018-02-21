@@ -84,7 +84,9 @@ id자리 공백, 제목, 내용, URL 순서로 한 행씩 묶어 추출합니다
 console.log("!"+$table_content_title+"!"+$table_content +"!"+ table_url);
 ~~~
 <br>
+
 ### 3. 데이터 저장
+
 텍스트 파일로 저장을 합니다.
 ~~~
 $node faq_cr.js > text.txt
